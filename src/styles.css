@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(231, 231, 231);
+  font-family: 'Roboto', sans-serif;
+}
+
+#quote-box {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+}
+
+#new-quote {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1DA1F2;
+  border-radius: 350px;
+  border: 0;
+  width: 15vw;
+  height: 3vw;
+  font-size: large;
+  color: rgb(231, 231, 231)
+}
+
+#new-quote:hover {
+  cursor: pointer;
+  
+}
+
+#text-container {
+  border-left: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-left: 2vw;
+  padding-left: 2vw;
+  /* height: 25vh; */
+  justify-content: center;
+}
+
+#quote-subtext-div {
+  display: flex;
+  margin-top: 0;
+  justify-content: space-between;
+}
+
+#tweet-quote {
+  display: flex;
+  color: #1DA1F2;
+  text-decoration: none;
+}
+
+#twitter-icon {
+  margin-right: 0.5vw;
+}
