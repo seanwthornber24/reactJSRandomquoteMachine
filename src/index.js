@@ -7,7 +7,6 @@ class QuoteMachine extends React.Component {
   constructor(props) {
       super(props);
       this.state = {
-          test: "hello",
           quotes: [
               ["The journey of a thousand miles begins with one step.", "Lao Tzu"],
               ["That which does not kill us makes us stronger.", "Friedrich Nietzsche"],
